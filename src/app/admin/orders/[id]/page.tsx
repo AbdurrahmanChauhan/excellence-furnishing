@@ -154,7 +154,7 @@ export default function AdminOrderDetailPage() {
         date: timestamp,
         referenceNumber: paymentRef.trim() || undefined,
         notes: paymentNotes.trim() || undefined,
-        recordedBy: 'Mr. Altab Chauhan',
+        recordedBy: 'Mr. Altaf Chauhan',
       };
 
       const updatedPayments = [...(order.payments || []), newPayment];
@@ -236,11 +236,11 @@ export default function AdminOrderDetailPage() {
         },
         businessDetails: {
           legalName: 'Excellence The Furnishing Gallery',
-          proprietor: 'Mr. Altab Chauhan',
-          address: 'Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Station, Andheri West, Mumbai — 400058',
-          phone: '+91 98200 XXXXX',
-          email: 'contact@excellencefurnishing.in',
-          gstin: '27AABCU9603R1ZM',
+          proprietor: 'Mr. Altaf Chauhan',
+          address: 'Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Crossing, Andheri West, Mumbai — 400058',
+          phone: '+91 91462 77255',
+          email: 'altamashchauhanexcellence@gmail.com',
+          gstin: '27ANMPC9233E1Z1',
           pan: 'AABCU9603R',
           bankDetails: {
             bankName: 'HDFC Bank',
@@ -662,7 +662,7 @@ export default function AdminOrderDetailPage() {
                 <ShieldCheck className="w-3.5 h-3.5 text-brand-gold" /> Master Tailoring Team
               </span>
               <p className="text-brand-charcoal/80">
-                Mr. Altamash & Mr. Alim (Senior Workshop Supervisors)
+                Mr. Altamash & Mr. Ahmed (Senior Workshop Supervisors)
                 <br />
                 <span className="text-brand-gold-dark font-medium">
                   Workshop Hotline: Shop 226, Sajid Tower, Andheri West

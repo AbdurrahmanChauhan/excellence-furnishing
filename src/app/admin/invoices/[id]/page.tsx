@@ -198,7 +198,7 @@ export default function AdminInvoiceDetailPage() {
                 'Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Station, Andheri West, Mumbai — 400058'}
             </p>
             <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-brand-charcoal/70 pt-1">
-              <span><strong>GSTIN:</strong> {invoice.businessDetails?.gstin || '27AABCU9603R1ZM'}</span>
+              <span><strong>GSTIN:</strong> {invoice.businessDetails?.gstin || '27ANMPC9233E1Z1'}</span>
               <span><strong>PAN:</strong> {invoice.businessDetails?.pan || 'AABCU9603R'}</span>
               <span><strong>State:</strong> 27 (Maharashtra)</span>
             </div>

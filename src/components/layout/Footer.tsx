@@ -159,16 +159,26 @@ export function Footer() {
             <div className="space-y-3 text-xs text-brand-pearl/80">
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-brand-gold shrink-0" />
-                <a href={`tel:${SITE_CONFIG.phone}`} className="hover:text-brand-gold transition">
-                  {SITE_CONFIG.phoneDisplay}
-                </a>
+                <div className="flex flex-col gap-0.5">
+                  <a href={`tel:${SITE_CONFIG.phone}`} className="hover:text-brand-gold transition">
+                    Mob: {SITE_CONFIG.phoneDisplay}
+                  </a>
+                  <span className="text-[11px] text-brand-pearl/60">
+                    Tel: 022-26798786 / 26768786
+                  </span>
+                </div>
               </div>
 
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-brand-gold shrink-0" />
-                <a href={`mailto:${SITE_CONFIG.email}`} className="hover:text-brand-gold transition">
+                <a href={`mailto:${SITE_CONFIG.email}`} className="hover:text-brand-gold transition break-all">
                   {SITE_CONFIG.email}
                 </a>
+              </div>
+
+              <div className="flex items-center gap-2 text-[11px] text-brand-pearl/70">
+                <span className="font-semibold text-brand-gold">GSTIN:</span>
+                <span className="font-mono">{SITE_CONFIG.gstin}</span>
               </div>
 
               <div className="pt-3">

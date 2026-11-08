@@ -327,7 +327,7 @@ export default function AdminInvoicesPage() {
                         {inv.invoiceNumber}
                       </Link>
                       <span className="text-[10px] text-brand-charcoal/60 block mt-0.5">
-                        GSTIN: {inv.businessDetails?.gstin || '27AABCU9603R1ZM'}
+                        GSTIN: {inv.businessDetails?.gstin || '27ANMPC9233E1Z1'}
                       </span>
                     </td>
 

@@ -197,7 +197,7 @@ export function AdminSidebar({ className, mobileOpen, onMobileClose }: AdminSide
             AC
           </div>
           <div className="flex-1 min-w-0">
-            <p className="text-xs font-bold text-white truncate">Mr. Altab Chauhan</p>
+            <p className="text-xs font-bold text-white truncate">Mr. Altaf Chauhan</p>
             <p className="text-[10px] text-brand-gold/90 truncate">Proprietor (Est. 2003)</p>
           </div>
         </div>

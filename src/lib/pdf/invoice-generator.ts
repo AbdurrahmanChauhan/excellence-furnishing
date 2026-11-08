@@ -37,7 +37,7 @@ export function generateInvoicePDF(invoice: Invoice): jsPDF {
     26
   );
   doc.text(
-    `GSTIN: ${invoice.businessDetails?.gstin || '27AABCU9603R1ZM'} | State: 27 (Maharashtra) | Phone: +91 98200 XXXXX`,
+    `GSTIN: ${invoice.businessDetails?.gstin || '27ANMPC9233E1Z1'} | State: 27 (Maharashtra) | Phone: +91 91462 77255 / 022-26798786`,
     14,
     30
   );

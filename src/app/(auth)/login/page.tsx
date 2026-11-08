@@ -235,7 +235,7 @@ function LoginForm() {
                 <ShieldCheck className="w-3.5 h-3.5 text-brand-gold" />
                 <div className="text-left">
                   <div className="font-semibold text-brand-espresso">Demo Admin</div>
-                  <div className="text-[10px] text-brand-charcoal/60">Mr. Altab Chauhan</div>
+                  <div className="text-[10px] text-brand-charcoal/60">Mr. Altaf Chauhan</div>
                 </div>
               </Button>
 

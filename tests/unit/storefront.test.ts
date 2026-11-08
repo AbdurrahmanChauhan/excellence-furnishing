@@ -9,9 +9,9 @@ describe('Storefront Configuration & Brand Identity Tests', () => {
     expect(SITE_CONFIG.name).toBe('Excellence The Furnishing Gallery');
     expect(SITE_CONFIG.establishedYear).toBe(2003);
     expect(SITE_CONFIG.yearsOfLegacy).toBeGreaterThanOrEqual(23);
-    expect(SITE_CONFIG.proprietor).toBe('Mr. Altab Chauhan');
-    expect(SITE_CONFIG.keyStaff).toContain('Mr. Altamash');
-    expect(SITE_CONFIG.keyStaff).toContain('Mr. Alim');
+    expect(SITE_CONFIG.proprietor).toBe('Mr. Altaf Chauhan');
+    expect(SITE_CONFIG.keyStaff).toContain('Mr. Altamash Chauhan');
+    expect(SITE_CONFIG.keyStaff).toContain('Mr. Ahmed');
   });
 
   it('contains the verified physical showroom address and landmark in Andheri West', () => {

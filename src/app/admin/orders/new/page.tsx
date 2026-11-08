@@ -219,7 +219,7 @@ export default function AdminNewOrderPage() {
           date: timestamp,
           referenceNumber: advanceRef || undefined,
           notes: 'Advance deposit on order placement',
-          recordedBy: 'Mr. Altab Chauhan',
+          recordedBy: 'Mr. Altaf Chauhan',
         });
       }
 

@@ -71,7 +71,7 @@ export function ShowroomInvite() {
                       {SITE_CONFIG.phoneDisplay}
                     </a>
                     <span className="block text-brand-pearl/70 text-xs">
-                      Guidance by Mr. Altamash & Mr. Alim
+                      Guidance by Mr. Altamash & Mr. Ahmed
                     </span>
                   </div>
                 </div>

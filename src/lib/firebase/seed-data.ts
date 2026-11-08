@@ -1307,7 +1307,7 @@ export const SEEDED_ORDERS: readonly Order[] = [
         method: 'upi',
         date: '2026-01-20T00:00:00Z',
         referenceNumber: 'UPI/2026/0120/99812',
-        recordedBy: 'admin-altab',
+        recordedBy: 'admin-altaf',
       },
       {
         id: 'pay-2',
@@ -1386,7 +1386,7 @@ export const SEEDED_ORDERS: readonly Order[] = [
         method: 'upi',
         date: '2026-10-18T00:00:00Z',
         referenceNumber: 'UPI/2026/1018/88712',
-        recordedBy: 'admin-altab',
+        recordedBy: 'admin-altaf',
       },
     ],
     status: 'in_production',
@@ -1435,13 +1435,13 @@ export const SEEDED_INVOICES: readonly Invoice[] = [
     },
     businessDetails: {
       legalName: 'Excellence The Furnishing Gallery',
-      proprietor: 'Mr. Altab Chauhan',
+      proprietor: 'Mr. Altaf Chauhan',
       address:
-        'Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Station, Andheri West, Mumbai — 400058',
-      phone: '+91 98200 XXXXX',
-      email: 'contact@excellencefurnishing.in',
-      gstin: '27AABCE1234F1Z5',
-      pan: 'AABCE1234F',
+        'Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Crossing, Andheri West, Mumbai — 400058',
+      phone: '+91 91462 77255',
+      email: 'altamashchauhanexcellence@gmail.com',
+      gstin: '27ANMPC9233E1Z1',
+      pan: 'ANMPC9233E',
       bankDetails: {
         bankName: 'HDFC Bank',
         accountName: 'Excellence The Furnishing Gallery',
@@ -1515,10 +1515,10 @@ export const SEEDED_INVOICES: readonly Invoice[] = [
 // Seeded Users
 export const SEEDED_USERS: readonly UserProfile[] = [
   {
-    uid: 'admin-altab',
+    uid: 'admin-altaf',
     email: 'admin@excellencefurnishing.com',
-    displayName: 'Mr. Altab Chauhan',
-    phoneNumber: '+91 98200 12345',
+    displayName: 'Mr. Altaf Chauhan',
+    phoneNumber: '+91 91462 77255',
     role: 'admin',
     address: {
       street: 'Shop No. 226, Sajid Tower, S.V. Road',

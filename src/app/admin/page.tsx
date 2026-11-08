@@ -89,7 +89,7 @@ export default function AdminDashboardPage() {
             <span className="text-xs text-brand-ivory/70">Est. 2003 · 23+ Years</span>
           </div>
           <h2 className="text-xl sm:text-2xl font-bold font-display text-white">
-            Welcome back, Mr. Altab Chauhan
+            Welcome back, Mr. Altaf Chauhan
           </h2>
           <p className="text-sm text-brand-ivory/80 max-w-2xl mt-1">
             Showroom CRM & Workshop Tailoring Operations for Excellence The Furnishing Gallery, Andheri West.

@@ -56,7 +56,7 @@ export default function ContactPage() {
             Connect With Our Master Craftsmen
           </h1>
           <p className="font-accent italic text-lg sm:text-xl text-brand-burgundy mt-2">
-            Schedule an in-home measurement visit with Mr. Altamash or Mr. Alim, or drop by our Andheri West gallery.
+            Schedule an in-home measurement visit with Mr. Altamash or Mr. Ahmed, or drop by our Andheri West gallery.
           </p>
           <div className="w-24 h-0.5 bg-brand-gold mx-auto mt-4" />
         </div>
@@ -81,7 +81,7 @@ export default function ContactPage() {
                   Consultation Request Received!
                 </h3>
                 <p className="text-xs sm:text-sm text-brand-charcoal max-w-md mx-auto leading-relaxed">
-                  Thank you, <strong>{formData.name || 'Valued Customer'}</strong>. Mr. Altamash or Mr. Alim will call you at <strong>{formData.phone}</strong> shortly to confirm your consultation timing and review fabric preferences.
+                  Thank you, <strong>{formData.name || 'Valued Customer'}</strong>. Mr. Altamash or Mr. Ahmed will call you at <strong>{formData.phone}</strong> shortly to confirm your consultation timing and review fabric preferences.
                 </p>
                 <div className="pt-4">
                   <button

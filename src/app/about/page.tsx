@@ -17,7 +17,7 @@ import { SITE_CONFIG } from '@/config/site';
 export const metadata = {
   title: 'About Our 23-Year Heritage | Excellence The Furnishing Gallery',
   description:
-    'Discover the 23-year master craftsmanship legacy of Excellence Furnishing in Andheri West, Mumbai. Founded in 2003 by Mr. Altab Chauhan.',
+    'Discover the 23-year master craftsmanship legacy of Excellence Furnishing in Andheri West, Mumbai. Founded in 2003 by Mr. Altaf Chauhan.',
 };
 
 export default function AboutPage() {
@@ -64,7 +64,7 @@ export default function AboutPage() {
               Our Legacy of Tactile Perfection
             </h2>
             <p>
-              In 2003, <strong>Mr. Altab Chauhan</strong> opened the doors of <em>Excellence The Furnishing Gallery</em> with a singularly focused mission: to bring authentic European and bespoke Indian soft furnishing craftsmanship to Mumbai homeowners without the impersonal markup of corporate chains.
+              In 2003, <strong>Mr. Altaf Chauhan</strong> opened the doors of <em>Excellence The Furnishing Gallery</em> with a singularly focused mission: to bring authentic European and bespoke Indian soft furnishing craftsmanship to Mumbai homeowners without the impersonal markup of corporate chains.
             </p>
             <p>
               Nestled near Amboli Railway Station and next to the iconic Cafe Arfa on S.V. Road, our showroom has grown over 23 years from a neighborhood boutique into an internationally recognized destination for curtains, sofa reupholstering, designer wallpapers, and sleep wellness.
@@ -111,14 +111,14 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Mr. Altab Chauhan */}
+            {/* Mr. Altaf Chauhan */}
             <div className="p-6 rounded-card bg-white border border-brand-gold/25 shadow-card text-center space-y-4">
               <div className="w-24 h-24 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-3xl">
                 AC
               </div>
               <div>
                 <h3 className="font-display font-bold text-xl text-brand-espresso">
-                  Mr. Altab Chauhan
+                  Mr. Altaf Chauhan
                 </h3>
                 <span className="text-xs font-semibold text-brand-burgundy uppercase tracking-wider block mt-0.5">
                   Proprietor & Master Furnisher
@@ -129,14 +129,14 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Mr. Altamash */}
+            {/* Mr. Altamash Chauhan */}
             <div className="p-6 rounded-card bg-white border border-brand-gold/25 shadow-card text-center space-y-4">
               <div className="w-24 h-24 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-3xl">
-                MA
+                AC
               </div>
               <div>
                 <h3 className="font-display font-bold text-xl text-brand-espresso">
-                  Mr. Altamash
+                  Mr. Altamash Chauhan
                 </h3>
                 <span className="text-xs font-semibold text-brand-burgundy uppercase tracking-wider block mt-0.5">
                   Senior Textile & Drapery Consultant
@@ -147,17 +147,17 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Mr. Alim */}
+            {/* Mr. Ahmed */}
             <div className="p-6 rounded-card bg-white border border-brand-gold/25 shadow-card text-center space-y-4">
               <div className="w-24 h-24 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-3xl">
-                AL
+                AH
               </div>
               <div>
                 <h3 className="font-display font-bold text-xl text-brand-espresso">
-                  Mr. Alim
+                  Mr. Ahmed
                 </h3>
                 <span className="text-xs font-semibold text-brand-burgundy uppercase tracking-wider block mt-0.5">
-                  Master Measurement & Sleep Specialist
+                  Master Measurement & Fitting Specialist
                 </span>
                 <p className="text-xs text-brand-charcoal/80 mt-3 leading-relaxed">
                   Head of in-home precision laser measurements, Somfy motorized drapery integration, and certified Refresh / Dr. Ortho sleep ergonomics.

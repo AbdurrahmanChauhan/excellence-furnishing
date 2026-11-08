@@ -27,7 +27,7 @@ describe('Authentication & RBAC Unit Tests', () => {
       const admin = await signInWithEmail('admin@excellencefurnishing.com', 'Admin@123');
       expect(admin).toBeDefined();
       expect(admin.role).toBe('admin');
-      expect(admin.displayName).toBe('Mr. Altab Chauhan');
+      expect(admin.displayName).toBe('Mr. Altaf Chauhan');
       expect(admin.email).toBe('admin@excellencefurnishing.com');
     });
 
@@ -95,7 +95,7 @@ describe('Authentication & RBAC Unit Tests', () => {
     });
 
     it('resolves correct role via getUserRole', async () => {
-      const adminRole = await getUserRole('admin-altab');
+      const adminRole = await getUserRole('admin-altaf');
       expect(adminRole).toBe('admin');
 
       const customerRole = await getUserRole('customer-priya');
@@ -128,7 +128,7 @@ describe('Authentication & RBAC Unit Tests', () => {
       expect(user.role).toBe('admin');
       const updatedState = useAuthStore.getState();
       expect(updatedState.isAuthenticated).toBe(true);
-      expect(updatedState.user?.displayName).toBe('Mr. Altab Chauhan');
+      expect(updatedState.user?.displayName).toBe('Mr. Altaf Chauhan');
       expect(updatedState.profile?.role).toBe('admin');
       expect(updatedState.error).toBeNull();
     });

@@ -471,7 +471,7 @@ export default function OrderDetailPage() {
                 <ShieldCheck className="w-3.5 h-3.5 text-brand-gold" /> Assigned Fitting Team
               </span>
               <p className="text-brand-charcoal/80">
-                Mr. Alim & Workshop Fitting Crew
+                Mr. Ahmed & Workshop Fitting Crew
                 <br />
                 <span className="text-brand-gold-dark font-medium">
                   Direct Helpline: +91 98200 XXXXX

@@ -17,7 +17,7 @@ import { Address } from '@/types/common';
  * Maps lowercase email -> { password, uid }
  */
 const mockCredentials = new Map<string, { password: string; uid: string }>([
-  ['admin@excellencefurnishing.com', { password: 'Admin@123', uid: 'admin-altab' }],
+  ['admin@excellencefurnishing.com', { password: 'Admin@123', uid: 'admin-altaf' }],
   ['customer@excellencefurnishing.com', { password: 'Customer@123', uid: 'customer-priya' }],
 ]);
 

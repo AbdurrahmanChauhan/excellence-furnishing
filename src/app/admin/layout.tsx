@@ -84,7 +84,7 @@ export default function AdminLayout({
               </div>
               <div className="hidden lg:block text-left text-xs">
                 <span className="font-bold text-brand-espresso block leading-tight">
-                  Mr. Altab Chauhan
+                  Mr. Altaf Chauhan
                 </span>
                 <span className="text-[10px] text-brand-gold-dark font-medium block">
                   Proprietor

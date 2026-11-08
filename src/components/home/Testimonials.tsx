@@ -30,8 +30,8 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Lokhandwala Complex, Andheri West',
     rating: 5,
     date: 'January 2026',
-    text: 'We wanted to reupholster our 12-year-old teak sofa set instead of buying cheap new furniture. Mr. Altab Chauhan personally inspected the frame and recommended 500 GSM velvet jacquard with high-density foam replacement. The finished sofa looks even more opulent than Italian designer brands!',
-    consultant: 'Master Oversight by Mr. Altab Chauhan',
+    text: 'We wanted to reupholster our 12-year-old teak sofa set instead of buying cheap new furniture. Mr. Altaf Chauhan personally inspected the frame and recommended 500 GSM velvet jacquard with high-density foam replacement. The finished sofa looks even more opulent than Italian designer brands!',
+    consultant: 'Master Oversight by Mr. Altaf Chauhan',
     project: 'Sofa Reupholstery & Turkish Velvet Cushions',
   },
   {
@@ -40,8 +40,8 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Juhu Scheme, Mumbai',
     rating: 5,
     date: 'November 2025',
-    text: 'Mr. Alim visited our apartment with full fabric catalogs and took laser-accurate measurements. The motorized wave drapes operate silently, and the Refresh latex mattress cured my chronic morning backache. Best furnishing establishment in Mumbai without a doubt.',
-    consultant: 'Consultation by Mr. Alim',
+    text: 'Mr. Ahmed visited our apartment with full fabric catalogs and took laser-accurate measurements. The motorized wave drapes operate silently, and the Refresh latex mattress cured my chronic morning backache. Best furnishing establishment in Mumbai without a doubt.',
+    consultant: 'Consultation by Mr. Ahmed',
     project: 'Somfy Motorized Drapes & Refresh Latex Mattress',
   },
   {

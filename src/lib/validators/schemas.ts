@@ -108,7 +108,7 @@ export const paymentLogSchema = z.object({
   method: z.enum(['upi', 'credit_debit_card', 'net_banking', 'cheque', 'cash', 'bank_neft_rtgs']),
   referenceNumber: z.string().optional(),
   notes: z.string().optional(),
-  recordedBy: z.string().min(2, 'Staff name is required').default('Mr. Altab Chauhan'),
+  recordedBy: z.string().min(2, 'Staff name is required').default('Mr. Altaf Chauhan'),
 });
 
 export type PaymentLogFormData = z.infer<typeof paymentLogSchema>;

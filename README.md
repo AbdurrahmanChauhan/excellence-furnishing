@@ -41,11 +41,14 @@ This application pairs an open, high-converting consumer storefront with an inte
 | Attribute | Details |
 | :--- | :--- |
 | **Business Name** | Excellence The Furnishing Gallery |
-| **Proprietor** | Mr. Altab Chauhan |
-| **Key Workshop Staff** | Mr. Altamash, Mr. Alim |
+| **Proprietor** | Mr. Altaf Chauhan |
+| **Key Workshop Staff** | Mr. Altamash Chauhan, Mr. Ahmed |
 | **Established** | 2003 (23+ Years in soft furnishings & interior decor) |
-| **Physical Address** | Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Station, Andheri West, Mumbai, Maharashtra 400058 |
-| **Landmarks** | Next to Cafe Arfa, near Navneeth Colony / Fish Market |
+| **Physical Address** | Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Crossing, Andheri West, Mumbai, Maharashtra 400058 |
+| **Landmarks** | Next to Cafe Arfa, Opp. Amboli Railway Crossing |
+| **Contact Numbers** | **Mobile:** +91 91462 77255, +91 80975 86466, +91 91466 55990<br>**Landline:** 022-26798786, 26768786, 26760786 |
+| **Email** | altamashchauhanexcellence@gmail.com |
+| **GSTIN** | 27ANMPC9233E1Z1 |
 | **Hours** | Mon–Sun: 10:00 AM – 9:30 PM |
 | **Instagram** | [@excellence_furnishinggallery](https://www.instagram.com/excellence_furnishinggallery/) |
 | **Reputation** | 4.3 / 5.0 Star Rating across 113+ verified public reviews |
