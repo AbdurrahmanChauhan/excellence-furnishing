@@ -11,7 +11,16 @@ describe('Storefront Configuration & Brand Identity Tests', () => {
     expect(SITE_CONFIG.yearsOfLegacy).toBeGreaterThanOrEqual(23);
     expect(SITE_CONFIG.proprietor).toBe('Mr. Altaf Chauhan');
     expect(SITE_CONFIG.keyStaff).toContain('Mr. Altamash Chauhan');
-    expect(SITE_CONFIG.keyStaff).toContain('Mr. Ahmed');
+    expect(SITE_CONFIG.keyStaff).toContain('Mr. Ahmed Chauhan');
+    expect(SITE_CONFIG.keyStaff).toContain('Mr. Mohammed Chauhan');
+  });
+
+  it('declares the 4 active family contact mobile numbers', () => {
+    const rawNumbers = SITE_CONFIG.contactNumbers.map((c) => c.raw);
+    expect(rawNumbers).toContain('8097586466'); // Altamash
+    expect(rawNumbers).toContain('8108423957'); // Ahmed
+    expect(rawNumbers).toContain('8469649364'); // Mohammed
+    expect(rawNumbers).toContain('9146655990'); // Altaf
   });
 
   it('contains the verified physical showroom address and landmark in Andheri West', () => {

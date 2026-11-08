@@ -46,7 +46,7 @@ This application pairs an open, high-converting consumer storefront with an inte
 | **Established** | 2003 (23+ Years in soft furnishings & interior decor) |
 | **Physical Address** | Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Crossing, Andheri West, Mumbai, Maharashtra 400058 |
 | **Landmarks** | Next to Cafe Arfa, Opp. Amboli Railway Crossing |
-| **Contact Numbers** | **Mobile:** +91 91462 77255, +91 80975 86466, +91 91466 55990<br>**Landline:** 022-26798786, 26768786, 26760786 |
+| **Contact Numbers** | • **Altamash Chauhan:** +91 80975 86466<br>• **Ahmed Chauhan:** +91 81084 23957<br>• **Mohammed Chauhan:** +91 84696 49364<br>• **Altaf Chauhan:** +91 91466 55990 |
 | **Email** | altamashchauhanexcellence@gmail.com |
 | **GSTIN** | 27ANMPC9233E1Z1 |
 | **Hours** | Mon–Sun: 10:00 AM – 9:30 PM |

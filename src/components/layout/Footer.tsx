@@ -157,15 +157,19 @@ export function Footer() {
               Connect & Inquire
             </h3>
             <div className="space-y-3 text-xs text-brand-pearl/80">
-              <div className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-brand-gold shrink-0" />
-                <div className="flex flex-col gap-0.5">
-                  <a href={`tel:${SITE_CONFIG.phone}`} className="hover:text-brand-gold transition">
-                    Mob: {SITE_CONFIG.phoneDisplay}
-                  </a>
-                  <span className="text-[11px] text-brand-pearl/60">
-                    Tel: 022-26798786 / 26768786
-                  </span>
+              <div className="flex items-start gap-2.5">
+                <Phone className="w-4 h-4 text-brand-gold shrink-0 mt-0.5" />
+                <div className="flex flex-col gap-1">
+                  {SITE_CONFIG.contactNumbers.map((c) => (
+                    <a
+                      key={c.raw}
+                      href={`tel:+91${c.raw}`}
+                      className="hover:text-brand-gold transition flex items-center justify-between gap-2"
+                    >
+                      <span>{c.name}:</span>
+                      <span className="font-mono text-white/90">{c.phone}</span>
+                    </a>
+                  ))}
                 </div>
               </div>
 

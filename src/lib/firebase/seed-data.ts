@@ -1438,7 +1438,7 @@ export const SEEDED_INVOICES: readonly Invoice[] = [
       proprietor: 'Mr. Altaf Chauhan',
       address:
         'Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Crossing, Andheri West, Mumbai — 400058',
-      phone: '+91 91462 77255',
+      phone: '+91 80975 86466 / +91 91466 55990',
       email: 'altamashchauhanexcellence@gmail.com',
       gstin: '27ANMPC9233E1Z1',
       pan: 'ANMPC9233E',
@@ -1518,7 +1518,7 @@ export const SEEDED_USERS: readonly UserProfile[] = [
     uid: 'admin-altaf',
     email: 'admin@excellencefurnishing.com',
     displayName: 'Mr. Altaf Chauhan',
-    phoneNumber: '+91 91462 77255',
+    phoneNumber: '+91 91466 55990',
     role: 'admin',
     address: {
       street: 'Shop No. 226, Sajid Tower, S.V. Road',

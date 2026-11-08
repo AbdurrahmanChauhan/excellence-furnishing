@@ -110,57 +110,87 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Mr. Altaf Chauhan */}
             <div className="p-6 rounded-card bg-white border border-brand-gold/25 shadow-card text-center space-y-4">
-              <div className="w-24 h-24 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-3xl">
+              <div className="w-20 h-20 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-2xl">
                 AC
               </div>
               <div>
-                <h3 className="font-display font-bold text-xl text-brand-espresso">
+                <h3 className="font-display font-bold text-lg text-brand-espresso">
                   Mr. Altaf Chauhan
                 </h3>
                 <span className="text-xs font-semibold text-brand-burgundy uppercase tracking-wider block mt-0.5">
                   Proprietor & Master Furnisher
                 </span>
-                <p className="text-xs text-brand-charcoal/80 mt-3 leading-relaxed">
-                  Founder of Excellence in 2003. Possesses over 25+ years of specialized fabric engineering, antique furniture restoration, and bespoke drapery design.
+                <a href="tel:+919146655990" className="inline-block mt-2 text-xs font-mono font-semibold text-brand-gold hover:underline">
+                  +91 91466 55990
+                </a>
+                <p className="text-xs text-brand-charcoal/80 mt-2 leading-relaxed">
+                  Founder in 2003. Over 25+ years of specialized fabric engineering and drapery architecture.
                 </p>
               </div>
             </div>
 
             {/* Mr. Altamash Chauhan */}
             <div className="p-6 rounded-card bg-white border border-brand-gold/25 shadow-card text-center space-y-4">
-              <div className="w-24 h-24 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-3xl">
+              <div className="w-20 h-20 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-2xl">
                 AC
               </div>
               <div>
-                <h3 className="font-display font-bold text-xl text-brand-espresso">
+                <h3 className="font-display font-bold text-lg text-brand-espresso">
                   Mr. Altamash Chauhan
                 </h3>
                 <span className="text-xs font-semibold text-brand-burgundy uppercase tracking-wider block mt-0.5">
-                  Senior Textile & Drapery Consultant
+                  Client Relations & Styling
                 </span>
-                <p className="text-xs text-brand-charcoal/80 mt-3 leading-relaxed">
-                  Praised across 100+ public customer reviews for in-depth color consultation, fabric texture matchmaking, and swift custom stitching delivery.
+                <a href="tel:+918097586466" className="inline-block mt-2 text-xs font-mono font-semibold text-brand-gold hover:underline">
+                  +91 80975 86466
+                </a>
+                <p className="text-xs text-brand-charcoal/80 mt-2 leading-relaxed">
+                  Directs color matchmaking, modern smart motor drapes, and high-touch consultations.
                 </p>
               </div>
             </div>
 
-            {/* Mr. Ahmed */}
+            {/* Mr. Ahmed Chauhan */}
             <div className="p-6 rounded-card bg-white border border-brand-gold/25 shadow-card text-center space-y-4">
-              <div className="w-24 h-24 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-3xl">
-                AH
+              <div className="w-20 h-20 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-2xl">
+                AC
               </div>
               <div>
-                <h3 className="font-display font-bold text-xl text-brand-espresso">
-                  Mr. Ahmed
+                <h3 className="font-display font-bold text-lg text-brand-espresso">
+                  Mr. Ahmed Chauhan
                 </h3>
                 <span className="text-xs font-semibold text-brand-burgundy uppercase tracking-wider block mt-0.5">
-                  Master Measurement & Fitting Specialist
+                  Measurements & Fitting
                 </span>
-                <p className="text-xs text-brand-charcoal/80 mt-3 leading-relaxed">
-                  Head of in-home precision laser measurements, Somfy motorized drapery integration, and certified Refresh / Dr. Ortho sleep ergonomics.
+                <a href="tel:+918108423957" className="inline-block mt-2 text-xs font-mono font-semibold text-brand-gold hover:underline">
+                  +91 81084 23957
+                </a>
+                <p className="text-xs text-brand-charcoal/80 mt-2 leading-relaxed">
+                  Head of in-home precision laser measurements and customized window fitting execution.
+                </p>
+              </div>
+            </div>
+
+            {/* Mr. Mohammed Chauhan */}
+            <div className="p-6 rounded-card bg-white border border-brand-gold/25 shadow-card text-center space-y-4">
+              <div className="w-20 h-20 rounded-full bg-brand-gold/15 border-2 border-brand-gold mx-auto flex items-center justify-center text-brand-gold-dark font-display font-bold text-2xl">
+                MC
+              </div>
+              <div>
+                <h3 className="font-display font-bold text-lg text-brand-espresso">
+                  Mr. Mohammed Chauhan
+                </h3>
+                <span className="text-xs font-semibold text-brand-burgundy uppercase tracking-wider block mt-0.5">
+                  Workshop Operations & Sourcing
+                </span>
+                <a href="tel:+918469649364" className="inline-block mt-2 text-xs font-mono font-semibold text-brand-gold hover:underline">
+                  +91 84696 49364
+                </a>
+                <p className="text-xs text-brand-charcoal/80 mt-2 leading-relaxed">
+                  Oversees workshop tailoring lines, textile procurement, and prompt doorstep delivery.
                 </p>
               </div>
             </div>

@@ -280,11 +280,18 @@ export default function ContactPage() {
 
                 <div className="flex items-start gap-3">
                   <Phone className="w-4 h-4 text-brand-gold shrink-0 mt-1" />
-                  <div>
-                    <strong className="text-white block font-medium">Direct Telephone:</strong>
-                    <a href={`tel:${SITE_CONFIG.phone}`} className="text-brand-gold hover:underline">
-                      {SITE_CONFIG.phoneDisplay}
-                    </a>
+                  <div className="w-full">
+                    <strong className="text-white block font-medium mb-1">Direct Lines:</strong>
+                    <div className="grid grid-cols-1 gap-1 text-xs">
+                      {SITE_CONFIG.contactNumbers.map((c) => (
+                        <div key={c.raw} className="flex items-center justify-between gap-2 border-b border-white/10 pb-1">
+                          <span className="text-brand-pearl/80">{c.name}:</span>
+                          <a href={`tel:+91${c.raw}`} className="text-brand-gold font-mono hover:underline">
+                            {c.phone}
+                          </a>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
 

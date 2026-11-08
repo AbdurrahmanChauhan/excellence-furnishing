@@ -16,7 +16,7 @@
 | **Address** | Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Crossing, Andheri West, Mumbai — 400058 |
 | **Landmark** | Next to Cafe Arfa, Opp. Amboli Railway Crossing |
 | **Hours** | Mon–Sun, 10:00 AM – 9:30 PM |
-| **Phones** | Mob: +91 91462 77255, +91 80975 86466, +91 91466 55990 \| Tel: 022-26798786, 26768786, 26760786 |
+| **Phones** | Altamash: +91 80975 86466 \| Ahmed: +91 81084 23957 \| Mohammed: +91 84696 49364 \| Altaf: +91 91466 55990 |
 | **Email** | altamashchauhanexcellence@gmail.com |
 | **GSTIN** | 27ANMPC9233E1Z1 |
 | **Instagram** | [@excellence_furnishing](https://www.instagram.com/excellence_furnishinggallery/) |

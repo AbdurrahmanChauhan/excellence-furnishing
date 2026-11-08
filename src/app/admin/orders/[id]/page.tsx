@@ -238,7 +238,7 @@ export default function AdminOrderDetailPage() {
           legalName: 'Excellence The Furnishing Gallery',
           proprietor: 'Mr. Altaf Chauhan',
           address: 'Shop No. 226, Sajid Tower, S.V. Road, Opp. Amboli Railway Crossing, Andheri West, Mumbai — 400058',
-          phone: '+91 91462 77255',
+          phone: '+91 80975 86466 / +91 91466 55990',
           email: 'altamashchauhanexcellence@gmail.com',
           gstin: '27ANMPC9233E1Z1',
           pan: 'AABCU9603R',
