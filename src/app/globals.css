@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 25% 97%; /* #F8F6F3 Pearl White */
+    --foreground: 18 45% 12%; /* #2C1810 Rich Espresso */
+    --card: 0 0% 100%;
+    --card-foreground: 18 45% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 18 45% 12%;
+    --primary: 43 89% 38%; /* #B8860B Deep Royal Gold */
+    --primary-foreground: 43 73% 93%; /* #FAF3E0 Warm Ivory */
+    --secondary: 43 73% 93%; /* #FAF3E0 Warm Ivory */
+    --secondary-foreground: 18 45% 12%;
+    --muted: 36 24% 93%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 353 41% 32%; /* #722F37 Burgundy Wine */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 36 20% 88%;
+    --input: 36 20% 88%;
+    --ring: 43 89% 38%;
+    --radius: 0.75rem;
+  }
+
+  body {
+    @apply bg-brand-pearl text-brand-espresso antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom Scrollbar for Luxury Texture */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF3E0;
+}
+::-webkit-scrollbar-thumb {
+  background: #B8860B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #722F37;
+}
+
+/* Subtle Fabric Linen Overlay */
+.bg-fabric-pattern {
+  background-color: #F8F6F3;
+  background-image: radial-gradient(#2C1810 0.5px, transparent 0.5px), radial-gradient(#2C1810 0.5px, #F8F6F3 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  opacity: 0.98;
+}
+
+/* Glass-morphism for Floating Menus and Modals */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(184, 134, 11, 0.2);
+}
+
+.glass-panel-dark {
+  background: rgba(44, 24, 16, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(184, 134, 11, 0.3);
+}
+
+/* Gradient CTA Buttons */
+.btn-gradient-cta {
+  background: linear-gradient(135deg, #B8860B 0%, #722F37 100%);
+  color: #FAF3E0;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient-cta:hover {
+  background: linear-gradient(135deg, #D4A843 0%, #8B3A42 100%);
+  box-shadow: 0 8px 24px rgba(184, 134, 11, 0.35);
+}
